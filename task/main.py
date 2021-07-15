@@ -36,7 +36,7 @@ class story(object):
         self.file.write(msg)
 
 
-print("《美剧大世界里的骑士》")
+print("《名字》")
 story = story()#创建对象
 html = story.get_html()#获取html代码
 print("当前网页状态码：",story.status_code)
